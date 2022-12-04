@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "qr-scanner",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Pictures/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/Pictures/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Pictures/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.kappakoppa.myapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9a35fbeb-1bb6-4b6c-a253-9d1f48a134cc"
+      }
+    }
+  }
+}
